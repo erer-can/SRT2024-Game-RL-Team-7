@@ -30,7 +30,7 @@ Our team is focused on exploring the application of reinforcement learning (RL) 
 - Salih Can ERER
 - Ahmet Eren ASLAN
 - Eren Can ÖZKAYA
-- Uygar Apan
+- Uygar APAN
 
 ## Contact
 
