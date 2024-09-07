@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1725711556",
+        "python_version": "3.9.16 | packaged by conda-forge | (main, Feb  1 2023, 21:38:11) \n[Clang 14.0.6 ]",
+        "command_line_arguments": "/opt/anaconda3/envs/mlagents20/bin/mlagents-learn config/CubeTarget.yaml --run-id=CubeTarget_01",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1725711565"
+    },
+    "total": 9.076476083000001,
+    "count": 1,
+    "self": 0.015120334000002345,
+    "children": {
+        "run_training.setup": {
+            "total": 0.0204719579999999,
+            "count": 1,
+            "self": 0.0204719579999999
+        },
+        "TrainerController.start_learning": {
+            "total": 9.040883790999999,
+            "count": 1,
+            "self": 0.00034599899999854244,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 9.0403255,
+                    "count": 1,
+                    "self": 9.0403255
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0002122920000005024,
+                    "count": 1,
+                    "self": 0.0002122920000005024
+                }
+            }
+        }
+    }
+}
