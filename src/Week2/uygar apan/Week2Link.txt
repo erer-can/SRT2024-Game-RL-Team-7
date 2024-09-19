@@ -1,1 +1,1 @@
-https://github.com/roboticrustacean/Week2proj
+https://github.com/roboticrustacean/MLAgents-Week2
